@@ -31,6 +31,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -99,6 +100,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -107,5 +109,7 @@
       }
     }
   },
-  "defaultProject": "AngularMaterial-Ui"
+  "cli": {
+    "analytics": "eaca3c61-ec2c-4677-82f9-779a498d33d6"
+  }
 }

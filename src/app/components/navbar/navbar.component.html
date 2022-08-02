@@ -1,0 +1,23 @@
+<mat-toolbar color="accent">
+    <!-- <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button> -->
+    <span [routerLink]="['/']" routerLinkActive="router-link-active" >CryptoGraphy Currency <mat-icon></mat-icon></span>
+    <span class="example-spacer"></span>
+
+    <!-- <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon>favorite</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+      <mat-icon>share</mat-icon>
+    </button> -->
+
+
+      <mat-form-field>
+        <mat-select (valueChange)="sendCurrency($event)" class="text-sm" [(ngModel)]="selectedCurrency">
+            <mat-option selected value="INR">INR</mat-option>
+            <mat-option value="USD">USD</mat-option>
+        </mat-select>
+    </mat-form-field>
+      
+  </mat-toolbar>
